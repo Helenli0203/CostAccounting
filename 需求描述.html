@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>需求描述</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/需求描述/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/需求描述/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u0" class="ax_default heading_1">
+        <div id="u0_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1" class="text" style="visibility: visible;">
+          <p><span>存货核算</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2" class="ax_default heading_2">
+        <div id="u2_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3" class="text" style="visibility: visible;">
+          <p><span>用户场景 </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4" class="ax_default heading_2">
+        <div id="u4_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u5" class="text" style="visibility: visible;">
+          <p><span>系统功能描述及业务规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6" class="ax_default paragraph">
+        <div id="u6_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7" class="text" style="visibility: visible;">
+          <p><span>1. 企业(陶德)需要定期核算门店销售成本。门店销售成本与店长绩效挂勾，以将销售成本控制在标准范围。核算日期为每月10号，20号，月末。如1月核算期(会计期)为：</span></p><p><span>2018 - 1&nbsp; - 1 期：&nbsp; 2018-1-1&nbsp; -- 2018-1-10&nbsp; &nbsp;&nbsp; 10天</span></p><p><span>2018 - 1&nbsp; - 2 期：&nbsp; 2018-1-11&nbsp; -- 2018-1-20&nbsp; &nbsp; 10天</span></p><p><span>2018 - 1&nbsp; - 3 期：&nbsp; 2018-1-21&nbsp; -- 2018-1-31&nbsp; &nbsp; 11天</span></p><p><span>2018 - 1期：&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 2018-1-1&nbsp; -- 2018-1-31&nbsp; &nbsp; &nbsp; 31天，核算全月成本</span></p><p><span><br></span></p><p><span><br></span></p><p><span>2. 存货单位成本计算方法：</span></p><p><span>期末一次加权平均 （加权平均）， 期末单位存货成本 =&nbsp; （期初成本金额+ 当期购进金额）/ (期初存货数量 + 当期进购数量)</span></p><p><span><br></span></p><p><span>当期单位销售出库成本 = 期末单位存货成本</span></p><p><span><br></span></p><p><span>当期存货销售成本 = 期末存货单价 X (期初存货量 + 当期入库量 - 期末存货量 - 当期退货量 - 当期调拨量)</span></p><p><span><br></span></p><p><span>月末核算全月成本时，以1号为期初，月末日期为期末，重算当月成本(不是当月三个会计期成本累加。)</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u8" class="ax_default">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u9" class="ax_default label">
+          <div id="u9_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u10" class="text" style="visibility: visible;">
+            <p><span>期末结转</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u11" class="ax_default paragraph">
+          <div id="u11_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12" class="text" style="visibility: visible;">
+            <p><span>用户可以手动触发期末结转。结转成功后：</span></p><p><span>1. 当期期末数据自动转为下期期初。</span></p><p><span>2. 当期自动关帐，系统核算相关单据不允许修改</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u13" class="ax_default paragraph">
+        <div id="u13_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u14" class="text" style="visibility: visible;">
+          <p><span>1. 会计月：</span></p><p><span>可以为某会计年批量设置12个会计月。会计月截止日可以是自然月末，如会计月为2018-1-1 — 2018-1-31，2018-2-1 — 2018-2-28... 也可以为任一日期，如可指定截止日为每月20号，则会计月为2018-1-20 — 2018-2-20， 2018-2-21 — 2018-3-20...</span></p><p><span><br></span></p><p><span>2. 特殊会计期：</span></p><p><span>可以指定任一时期段(小于等于31天)为特殊会计期。如：</span></p><p><span>2018 - 1&nbsp; - 1 期：&nbsp; 2018-1-1&nbsp; -- 2018-1-10</span></p><p><span>2018 - 1&nbsp; - 2 期：&nbsp; 2018-1-11&nbsp; -- 2018-1-20 </span></p><p><span>2018 - 1&nbsp; - 3 期：&nbsp; 2018-1-21&nbsp; -- 2018-1-31 </span></p><p><span><br></span></p><p><span>3. 同一日期不能属于多个会计期。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15" class="ax_default label">
+        <div id="u15_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u16" class="text" style="visibility: visible;">
+          <p><span>会计期设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u17" class="ax_default label">
+        <div id="u17_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18" class="text" style="visibility: visible;">
+          <p><span>单位存货成本计算方式设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u19" class="ax_default paragraph">
+        <div id="u19_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20" class="text" style="visibility: visible;">
+          <p><span>可选计算方式： </span></p><p><span>1. 移动加权平均</span></p><p><span>2. 加权平均(期末一次加权)</span></p><p><span>(以后版本可能会增加更多计算方式如先进先出)</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u21" class="ax_default label">
+        <div id="u21_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22" class="text" style="visibility: visible;">
+          <p><span>销售出库量计算公式设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u23" class="ax_default paragraph">
+        <div id="u23_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24" class="text" style="visibility: visible;">
+          <p><span>1. 设置销售出库量计算公式，如是除去或不除去报损出库。</span></p><p><span><br></span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u25" class="ax_default label">
+        <div id="u25_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u26" class="text" style="visibility: visible;">
+          <p><span>期初结存初始化</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u27" class="ax_default image">
+        <img id="u27_img" class="img " src="images/需求描述/u27.png"/>
+        <!-- Unnamed () -->
+        <div id="u28" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u29" class="ax_default label">
+        <div id="u29_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u30" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u31" class="ax_default paragraph">
+        <div id="u31_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32" class="text" style="visibility: visible;">
+          <p><span>期初初始化是否同时初始化/库存 (待定)</span></p><p><span><br></span></p><p><span>原型待定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u33" class="ax_default label">
+        <div id="u33_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34" class="text" style="visibility: visible;">
+          <p><span>反结转(待定)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u35" class="ax_default label">
+        <div id="u35_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36" class="text" style="visibility: visible;">
+          <p><span>成本核算</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u37" class="ax_default paragraph">
+        <div id="u37_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38" class="text" style="visibility: visible;">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">1. 门店或档品成本只包含物料成本不包含物资成本。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2. 单位存货单价或数量计算结果超出4位小数时，系统计算取4位小数计算，页面显示成本单价为3位小数(四舍五入)，成本金额为两位小数(四舍五入)。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">例，某物品期末单位存货成本 = </span><span style="font-family:'ArialMT', 'Arial';"> 期末单位存货成本 =&nbsp; （期初成本金额+ 当期购进金额）/ (期初存货数量 + 当期进购数量) = 10/3 元，系统计算取3.3333元，页面显示存货单价为3.333元。如存货数量为1.11kg, 存货成本 = 3.3333 X 1.11 = 3.699663, 页面显示金额为： 3.70元。</span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u39" class="ax_default image">
+        <img id="u39_img" class="img " src="images/需求描述/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u40" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u41" class="ax_default image">
+        <img id="u41_img" class="img " src="images/需求描述/u41.png"/>
+        <!-- Unnamed () -->
+        <div id="u42" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u43" class="ax_default label">
+        <div id="u43_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44" class="text" style="visibility: visible;">
+          <p><span style="text-decoration:underline;">名词解释</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
