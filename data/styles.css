@@ -158,6 +158,12 @@
 }
 ._modal-backdrop {
 }
+._progressbar_base {
+  line-height:20px;
+}
+._progressbar_default {
+  line-height:20px;
+}
 .popover__panel_content {
   font-family:'HelveticaNeue', 'Helvetica Neue';
   font-weight:400;
