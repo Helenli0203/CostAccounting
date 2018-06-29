@@ -184,53 +184,53 @@
           </div>
         </div>
 
-        <!-- Unnamed (Image) -->
-        <div id="u30" class="ax_default image">
-          <img id="u30_img" class="img " src="images/需求描述/u30.png"/>
-          <!-- Unnamed () -->
-          <div id="u31" class="text" style="display: none; visibility: hidden">
-            <p><span></span></p>
-          </div>
-        </div>
-
         <!-- Unnamed (Rectangle) -->
-        <div id="u32" class="ax_default paragraph">
-          <div id="u32_div" class=""></div>
+        <div id="u30" class="ax_default paragraph">
+          <div id="u30_div" class=""></div>
           <!-- Unnamed () -->
-          <div id="u33" class="text" style="visibility: visible;">
+          <div id="u31" class="text" style="visibility: visible;">
             <p><span>期初初始化是否同时初始化/库存 (待定)</span></p><p><span><br></span></p><p><span>原型待定</span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u34" class="ax_default label">
-        <div id="u34_div" class=""></div>
+      <div id="u32" class="ax_default label">
+        <div id="u32_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u35" class="text" style="display: none; visibility: hidden">
+        <div id="u33" class="text" style="display: none; visibility: hidden">
           <p><span></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Group) -->
-      <div id="u36" class="ax_default">
+      <div id="u34" class="ax_default">
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u37" class="ax_default label">
-          <div id="u37_div" class=""></div>
+        <div id="u35" class="ax_default label">
+          <div id="u35_div" class=""></div>
           <!-- Unnamed () -->
-          <div id="u38" class="text" style="visibility: visible;">
+          <div id="u36" class="text" style="visibility: visible;">
             <p><span>成本核算</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u39" class="ax_default paragraph">
-          <div id="u39_div" class=""></div>
+        <div id="u37" class="ax_default paragraph">
+          <div id="u37_div" class=""></div>
           <!-- Unnamed () -->
-          <div id="u40" class="text" style="visibility: visible;">
-            <p style="font-size:13px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">1. 计算仓库成本时，只计算仓库中物料成本(不包含物资成本，因为物资耗用计费用不计成本）。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2. 仓库某一会计期的期初数据(物品结存单价及结存数量)来自于上该仓库上一期期末结存或期初初始化。期末单价由用户选定的存货单位成本计算方法(如加权平均法)计算得出。期末结存数量为期末盘点数量(盘点单营业日=会计期截止日的盘点单中的实盘数)。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.1 如果某物品盘点数量存在于多个期末盘点单中，成本核算时取最后提交的盘点单中的实盘数为期末结存数量。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.2 如果某物品无期末盘点，成本核算时取会计期截至营业日扎帐时的系统库存数量为物品的期末结存数。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.3 如果用户补录期末盘点单，期末盘点单提交成功后，系统自动更新物品相应会计期期末结存数量(当前实时库存不变)，但不自动重算成本，用户可以手动触发重算成本(补录盘点单不在Spint10范围)</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.4 如果某物品无期初结存数据，成本核算时取0为该物品的期初结存数量及单价。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">3. 如果核算仓库在核算会计期中有未完成的单据(1. 单据营业日在会计期间，2. 单据状态不为最终状态)，核算中止。页面给出相应提示(见原型：期末成本核算页面)。相关单据如下：</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 所有类型的入库单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 所有类型的出库单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 退货单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 调拨单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 报损单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 盘点单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 库存调整单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">4. 核算开始后核算仓库相应会计期自动关帐，用户不能提交核算仓库在核算会计期相关的单据(单据营业日在会计期间)。关帐时提交相关单据(同上 )提示信息：成本核算中， 不能提交单据。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">5. 核算成本时系统需检查以下几点，并提示警告信息：</span></p><p style="font-size:12px;line-height:16px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">系统中是否存在核算仓库的盘点单营业日=会计期截止日的盘点单。 </span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">5.1 核算物品是否有期末盘点数据。</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">5.2 系统中是否存在核算仓库的期初结存数据。</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">5.3 核算物品是否有期初结存数据。</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">5.4 当前核算的会计期是否有设置下一会计期。</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">(警告信息见原型。期末成本核算页面 )</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:13px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">6. 单位存货单价计算结果超出4位小数时，系统计算至少取4位小数计算(四舍五入)，页面显示成本单价为3位小数(四舍五入)，成本金额为两位小数(四舍五入)。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">例，某物品期末单位存货成本 = </span><span style="font-family:'ArialMT', 'Arial';"> 期末单位存货成本 =&nbsp; （期初成本金额+ 当期购进金额）/ (期初存货数量 + 当期进购数量) = 10/3 元每kg，系统计算取3.3333元，页面显示存货单价为3.333元/kg。如存货数量为1.11kg, 存货成本 = 3.3333 X 1.11 = 3.699663, 页面显示金额为： 3.70元，成本单价为3.33元/kg。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">7. 成本计算完成本通过系统消息通知用户。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">消息提示内容：[门店名] [仓库名] [会计期名] 成本核算已完成。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">如：东门店1仓2018-1期成本核算已完成。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">8. 当期成本核算完成后，当期期末结存数据(单价， 数量)自动转为下期期初。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">9. 核算完成本不关帐，即核算完成后用户仍然可以提交该核算仓库在核算会计期的单据。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p>
+          <div id="u38" class="text" style="visibility: visible;">
+            <p style="font-size:13px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">1. 计算仓库成本时，只计算仓库中物料成本(不包含物资成本，因为物资耗用计费用不计成本）。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2. 仓库某一会计期的期初数据(物品结存单价及结存数量)来自于上该仓库上一期期末结存或期初初始化。期末单价由用户选定的存货单位成本计算方法(如加权平均法)计算得出。期末结存数量为期末盘点数量(盘点单营业日=会计期截止日的盘点单中的实盘数)。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.1 如果某物品盘点数量存在于多个期末盘点单中，成本核算时取最后提交的盘点单中的实盘数为期末结存数量。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.2 如果某物品无期末盘点，成本核算时取会计期截至营业日扎帐时的系统库存数量为物品的期末结存数。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.3 如果用户补录期末盘点单，期末盘点单提交成功后，系统自动更新物品相应会计期期末结存数量(当前实时库存不变)，但不自动重算成本，用户可以手动触发重算成本(补录盘点单不在Spint10范围)</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.4 如果某物品无期初结存数据，成本核算时取0为该物品的期初结存数量及单价。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">3. 如果核算仓库在核算会计期中有未完成的单据(1. 单据营业日在会计期间，2. 单据已提交但状态不为最终状态)，核算中止。页面给出相应提示(见原型：期末成本核算页面)。相关单据如下：</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 所有类型的入库单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 所有类型的出库单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 退货单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 调拨单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 报损单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 盘点单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 库存调整单</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">4. 核算开始后核算仓库相应会计期自动关帐，用户不能提交核算仓库在核算会计期相关的单据(单据营业日在会计期间)。关帐时提交相关单据(同上 )提示信息：成本核算中， 不能提交单据。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">5. 核算成本时系统需检查以下几点，并提示警告信息：</span></p><p style="font-size:12px;line-height:16px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">系统中是否存在核算仓库的盘点单营业日=会计期截止日的盘点单。 </span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">5.1 核算物品是否有期末盘点数据。</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">5.2 系统中是否存在核算仓库的期初结存数据。</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">5.3 核算物品是否有期初结存数据。</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">5.4 当前核算的会计期是否有设置下一会计期。</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">5.6 核算仓库中存在草稿状态的核算相关单据(单据类型见上述第3条)</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;">(警告信息见原型。期末成本核算页面 )</span></p><p style="font-size:12px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:#000000;"><br></span></p><p style="font-size:13px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">6. 单位存货单价计算结果超出4位小数时，系统计算至少取4位小数计算(四舍五入)，页面显示成本单价为3位小数(四舍五入)，成本金额为两位小数(四舍五入)。</span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:13px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">例，某物品期末单位存货成本 = </span><span style="font-family:'ArialMT', 'Arial';"> 期末单位存货成本 =&nbsp; （期初成本金额+ 当期购进金额）/ (期初存货数量 + 当期进购数量) = 10/3 元每kg，系统计算取3.3333元，页面显示存货单价为3.333元/kg。如存货数量为1.11kg, 存货成本 = 3.3333 X 1.11 = 3.699663, 页面显示金额为： 3.70元，成本单价为3.33元/kg。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">7. 成本计算完成本通过系统消息通知用户。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">消息提示内容：[门店名] [仓库名] [会计期名] 成本核算已完成。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">如：东门店1仓2018-1期成本核算已完成。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">8. 当期成本核算完成后，当期期末结存数据(单价， 数量)自动转为下期期初。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';">9. 核算完成本不关帐，即核算完成后用户仍然可以提交该核算仓库在核算会计期的单据。</span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p style="font-size:13px;"><span style="font-family:'ArialMT', 'Arial';"><br></span></p>
           </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u39" class="ax_default label">
+        <div id="u39_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40" class="text" style="visibility: visible;">
+          <p><span style="text-decoration:underline;">名词解释</span></p>
         </div>
       </div>
 
@@ -239,16 +239,16 @@
         <div id="u41_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u42" class="text" style="visibility: visible;">
-          <p><span style="text-decoration:underline;">名词解释</span></p>
+          <p><span style="text-decoration:underline;">原型</span></p>
         </div>
       </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u43" class="ax_default label">
-        <div id="u43_div" class=""></div>
+      <!-- Unnamed (Image) -->
+      <div id="u43" class="ax_default image">
+        <img id="u43_img" class="img " src="images/需求描述/u43.png"/>
         <!-- Unnamed () -->
-        <div id="u44" class="text" style="visibility: visible;">
-          <p><span style="text-decoration:underline;">原型</span></p>
+        <div id="u44" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
         </div>
       </div>
     </div>
