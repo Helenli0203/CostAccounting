@@ -2469,8 +2469,9 @@
 #u529 {
   position:absolute;
   left:2px;
-  top:11px;
+  top:12px;
   width:134px;
+  visibility:hidden;
   word-wrap:break-word;
 }
 #u530_img {
