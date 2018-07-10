@@ -202,3 +202,11 @@
 }
 .flow_shape {
 }
+.heading_41 {
+  font-family:'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
+  font-weight:700;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+  line-height:19px;
+}
