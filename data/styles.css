@@ -210,3 +210,27 @@
   text-align:left;
   line-height:19px;
 }
+._alert-success {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#3C763D;
+  line-height:20px;
+}
+._alert-danger {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#A94442;
+  line-height:20px;
+}
+.heading_51 {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+  line-height:15px;
+}
